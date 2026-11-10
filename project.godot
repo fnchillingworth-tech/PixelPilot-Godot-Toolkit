@@ -1,0 +1,20 @@
+; PixelPilot Godot Toolkit demo project
+
+config_version=5
+
+[application]
+config/name="PixelPilot Toolkit Demo"
+run/main_scene="res://demo/main.tscn"
+
+[autoload]
+SaveManager="*res://addons/pixelpilot/save_manager.gd"
+SettingsManager="*res://addons/pixelpilot/settings_manager.gd"
+
+[display]
+window/size/viewport_width=960
+window/size/viewport_height=600
+window/stretch/mode="canvas_items"
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
